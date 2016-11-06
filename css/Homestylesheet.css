@@ -1,6 +1,7 @@
 
 body{
 	width: device-width;
+	height: device-height;
 	font-size: 100%;
 	font-family: Arial;
 	line-height: 1.5;
