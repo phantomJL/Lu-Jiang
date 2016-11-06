@@ -39,30 +39,31 @@ a{
 }
 
 .navbar {
-
-	border-style: double;
-    border-width: 5px;
+	background-color: #000000;
+    text-align: center;
 }
-.nav{
+
+.navbar .nav {
 	display: flex;
-	justify-content: center;
+
 }
 
-.nav li{
-	flex:1;
+.navbar .nav li{
+	flx:1;
 	display: inline;
 	font-weight:bold;
 }
 
-.header .nav a:link, .header .nav a:visited {
-	margin-left: 2px;
-	padding: 4% 33%;
-	height: 1.5em;
-	color:#000000;
+ .nav a:link, .nav a:visited {
+	text-align:center;
+	margin: 0 auto;
+	padding: 10px 20px;
+	height: 20px;
+	color:#FFFFFF;
 }
 
 
-.header .nav a:hover, .header .nav a:active, .header .nav .active a:link, .header .nav .active a:visited{
+ .nav a:hover,  .nav a:active,  .nav .active a:link, .nav .active a:visited{
 	color: #FFFFFF;
 	background-color:#000000;
 }
@@ -72,10 +73,6 @@ a{
 .content {  
 	max-width: 1400px;	
 	margin: 10px auto 10px auto;
-}
-
-.maincontent {
-	margin: 0 auto;
 }
 
 /* element on the left */
@@ -88,8 +85,7 @@ a{
 /* element on the right */
 .right{
 	padding: 20px;
-	
-	flex-basis: 80%;
+	flex-basis: 80%;	
 }
 
 

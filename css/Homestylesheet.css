@@ -38,30 +38,37 @@ a{
 	margin: 40px auto 40px auto;
 	
 	background-color: #fff;
-}
-
-.navbar {
-	padding: 20px 0;
+	
 }
 
 
-.navbar ul li{
-	float: left;
+.navbar{
+	text-align:center;
+
+}
+
+.nav {
+	display: flex;
+}
+
+
+
+.nav li{
+	flex:1;
 	display: inline;
 	font-weight:bold;
 }
 
 
-.navbar a:link, .navbar a:visited {
+.nav a:link, .nav a:visited {
 	text-align:center;
-	margin-left: 20px;
-	padding: 10px 25px;
+	padding: 10px 20px;
 	height: 1.5em;
 	color:#000000;
 }
 
 
-.navbar a:hover,.navbar a:active, .navbar .active a:link, .navbar .active a:visited{
+.nav a:hover,.nav a:active, .nav .active a:link, .nav .active a:visited{
 	color: #FFFFFF;
 	background-color:#000000;
 }
@@ -76,8 +83,7 @@ a{
 
 
 .maincontent {
-	margin: 0 auto;
-	flex-basis: 50%;
+	margin: 0 20%;
 }
 
 
