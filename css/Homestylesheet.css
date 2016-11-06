@@ -44,12 +44,11 @@ a{
 	padding: 40px 0;
 }
 
-.header .navbar {
-	margin-left: 25%;
-    margin-bottom: 10%;
+.navbar {
+	margin-left: 23%;
 }
 
-.header .nav li{
+.navbar ul li{
 	float: left;
 	display: inline;
 	font-weight:bold;
@@ -57,7 +56,7 @@ a{
 }
 
 
-.nav a:link, .nav a:visited {
+.navbar a:link, .navbar a:visited {
 	text-align:center;
 	margin-left: 2px;
 	padding: 0 25px;
@@ -66,7 +65,7 @@ a{
 }
 
 
-.header .nav a:hover,.header .nav a:active, .header .nav .active a:link, .header .nav .active a:visited{
+.navbar a:hover,.navbar a:active, .navbar .active a:link, .navbar .active a:visited{
 	color: #FFFFFF;
 	background-color:#000000;
 }

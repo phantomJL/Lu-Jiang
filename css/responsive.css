@@ -13,11 +13,13 @@ div.nav ul li {
 @media screen and (max-width: 500px) {
 	
 	div.nav ul li {
+		text-align:center
 		width: 50%;
 		font-size: 85%;
 	}
 	
 	div.mobile-collapse {
+		
 		width: auto;
 		float: none;
 		margin-right: 0;
