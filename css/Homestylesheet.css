@@ -13,6 +13,8 @@ a{
 
 .body{
 /* 	position: relative; */
+	border-style: solid;
+    border-width: 5px;
 	margin: 10% 10%;
 	width: 80%;
 	clear: both;
@@ -21,8 +23,7 @@ a{
 /* Header */
 
 .header {
-	border-style: solid;
-    border-width: 5px;
+
 	width:100%;
 }
 
@@ -77,10 +78,7 @@ a{
 
 /* content */
 
-.center {
-	border-style: solid;
-    border-width: 5px;
-    
+.center {    
 	background-color:#FFFFFF;
 	width: 80%;
 	overflow: auto;
