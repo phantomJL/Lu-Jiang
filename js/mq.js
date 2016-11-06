@@ -1,4 +1,3 @@
-/* JavaScript Media Queries */
 if (matchMedia) {
 	var mq = window.matchMedia("(min-width: 750px)");
 	mq.addListener(WidthChange);
