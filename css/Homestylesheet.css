@@ -16,13 +16,6 @@ img {
 	margin: 0 auto;
 }
 
-/* Section Inner */
-.section-inner {
-	max-width: 1100px;
-	padding: 0 25px;
-	margin: 0 auto;
-}
-
 body{
 	font-size: 100%;
 	font-family: Arial;
@@ -35,6 +28,14 @@ a{
 	text-decoration: none;}
 
  
+/* Section Inner */
+.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+
 
 /* Header */
 
@@ -44,9 +45,7 @@ a{
 }
 
 .header .navbar {
-	left:50%;
-	margin-left:-275px;
-    position:relative;
+	margin-left:270px;
     margin-bottom: 10%;
 }
 
