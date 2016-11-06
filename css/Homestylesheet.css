@@ -12,7 +12,7 @@ a{
 
 .body{
 /* 	position: relative; */
-	margin: 0 auto;
+	margin: 10% 10%;
 	width: 80%;
 	clear: both;
 }
@@ -21,7 +21,7 @@ a{
 
 .header {
 	border-style: solid;
-    	border-width: 5px;
+    border-width: 5px;
 	width:100%;
 }
 
@@ -77,9 +77,13 @@ a{
 /* content */
 
 .center {
-	background-color:#fff0f5;
-	width: 100%;
+	border-style: solid;
+    border-width: 5px;
+    
+	background-color:#FFFFFF;
+	width: 80%;
 	overflow: auto;
+	margin: 0 auto;
 	margin-top: 5%;
 }
 
@@ -91,7 +95,7 @@ a{
 
 .left img{
 	width: 100%;
-	height:auto;
+	height:100%;
 }
 
 
