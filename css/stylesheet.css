@@ -101,7 +101,7 @@ a{
 
 /* content */
 .content {  
-	padding: 120px 0;  
+	padding: 125px 0;  
 	background-color:#fff0f5;
 
 }
@@ -116,13 +116,13 @@ a{
 }
 
 /* Personal image */
-.personal{
+.left{
 	float: left;
 	margin-right: 5%;
 	width: 20%;
 	
 }
-.img{
+.leftcontent{
 	width: 20%;
 	height: 20%;
 	
@@ -130,7 +130,7 @@ a{
 }
 
 /* MoreInfo */
-.MoreInfo{
+.right{
 	width: 75%;
 	float: left;
 }
