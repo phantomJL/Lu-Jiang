@@ -4,8 +4,10 @@
   <head>
   	<meta charset="UTF-8">
     <title>Contact</title>
-    <link type = "text/css" rel = "stylesheet" href="css/stylesheet.css"/>
-    <link rel = "stylesheet" href = "css/responsive.css" media = "screen and (max-width:900px)">
+
+	
+    <link type = "text/css" rel = "stylesheet" href="css/stylesheet.css" />
+    <link type = "text/css" rel = "stylesheet" href = "css/responsive.css" media = "(min-width:900px)">
     <script src="js/email.js"></script> 
 	<meta name="author" content="Lu Jiang">
   </head>
@@ -15,33 +17,24 @@
 	<!-- !PAGE CONTENT! -->
     <!-- Header -->
     
-    <header class = "header"><div class = "section-inner">
-    	<div class = "topbar clearfix">
-    	
-    	<div class = "logo mobile-collapse">
-    	<a href = "index.html"><h1>LJ</h1></a>
-    	</div>
-    	
-    	<div class = "navbar mobile-collapse">
+    <header class = "header">
+    	<div class = "navbar">
       		<ul class = "nav">        
         		<li ><a href = "index.html">Home</a></li>
         		<li ><a href = "AboutMe.html">About Me</a></li>
         		<li class = "active"><a href = "Contact.html">Contact</a></li>  
       		</ul> 
-      	</div>
-      	
-      	</div>
-      	</div>       
+      	</div>     
     </header>
     
     <!-- Home Content -->
         <!-- Home Content -->
     <div class = "content">
-    <div class="section-inner">
     
-		<div class = "maincontent clearfix">
-    		<!-- personal -->
-			<div class = "left mobile-collapse">
+		<div class = "maincontent">
+		
+    		<!-- Question -->
+			<div class = "left">
 				<h1>Question?</h1>
 				<p>If you were instereted in learning more about me or if you got any question, you can leave your name and your comment in the right text
 				box.</p><br><p>I will email you back as soon as I get comments from you!!</p>
@@ -49,7 +42,7 @@
 			</div>
 			
     		<!-- MoreInfo -->
-    		<form method="post" action="" class = "right mobile-cllapse">	
+    		<form method="post" action="" class = "right">	
     		
 				<!-- My Interest -->
 				<div class="info-box-a">
@@ -57,7 +50,7 @@
 					<input type="text" id = "name" name="name" style="width: 100%;>
 				</div>
 
-				<!-- My Skills -->
+				<!-- Comment -->
 				<div class="info-box-b hide-mobile">
 					<h1>Comment</h1>
 					<input type="text" id="comment" name = "Comment" style="width: 100%; height: 300px;">
@@ -65,18 +58,16 @@
 					<input type="reset" value="Reset">
 				</div>
 		
-				
-				
+			
 			</form>
- 		</div>
     </div>
     </div>
 	
 	
     <!-- Footer -->
-    <div class="footer">	<div class = "section-inner">	
+    <div class="footer">
     	<p>create by Lu Jiang</p>
-    	</div>
+
 	</div>
 	
 
