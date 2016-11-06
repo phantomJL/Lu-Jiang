@@ -106,6 +106,10 @@ a{
 
 }
 
+.resizedTextbox {
+	width: 80%; 
+	height: 30%;
+}
 
 .maincontent {
 	margin: 0 auto;
