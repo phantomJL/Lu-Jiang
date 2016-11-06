@@ -122,12 +122,6 @@ a{
 	width: 20%;
 	
 }
-.leftcontent{
-	width: 20%;
-	height: 20%;
-	
-
-}
 
 /* MoreInfo */
 .right{
@@ -156,7 +150,7 @@ a{
 div.footer {
 	background-color: #fff;
 	padding: 30px 0;
-	text-align: center;s
+	text-align: center;
 }
 
 
