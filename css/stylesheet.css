@@ -41,8 +41,7 @@ a{
 .header {
 	border-style: double;
     border-width: 5px;
-    height: 60px;
-	width:100%;
+    height: 60px;width:100%;
 }
 
 .header .logo{
@@ -102,7 +101,7 @@ a{
 
 /* content */
 .content {  
-	padding: 50px 0;  
+	padding: 100px 0;  
 	background-color:#fff0f5;
 
 }
