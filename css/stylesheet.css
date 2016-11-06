@@ -14,6 +14,7 @@ a{
 	margin: 0 auto;
 	width: 80%;
 	clear: both;
+	max-width: 900px;
 }
 
 /* Header */
@@ -78,26 +79,37 @@ a{
 	background-color:#000000;
 }
 
-
 /* content */
 
-.content {
-	
-	width: 100%;
-	overflow: auto;	
-	padding: 25px 25px;
-
-	margin: 0 auto;
+/* left */
+.main {
+	width: 65%;
+	float: left;
+	margin-right: 5%;
 }
+
+/* right */
+.side {
+	width: 30%;
+	float: left;
+}
+
 
 
 /* footer */
 
 .footer{
-	text-align:center;
+	bottom: 0;
 	width:100%;	
 	overflow: auto;
-
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
+
+.footer p {
+	text-align:center;
+}
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
