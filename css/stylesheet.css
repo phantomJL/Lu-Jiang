@@ -21,7 +21,7 @@ body{
 	font-family: Arial;
 	line-height: 1.5;
 	text-align: left;
-	background-color:#fff;
+	background-color:#fff0f5;
 }
 
 a{
@@ -100,33 +100,59 @@ a{
 }
 
 /* content */
+.content {  
+	padding: 50px 0;  
+	background-color:#fff0f5;
 
-/* left */
-.main {
-	width: 65%;
+}
+
+
+.maincontent {
+	margin: 0 auto;
+}
+
+/* Personal image */
+.personal{
 	float: left;
 	margin-right: 5%;
+	width: 20%;
+	
+}
+.img{
+	width: 20%;
+	height: 20%;
+	
+
 }
 
-/* right */
-.side {
-	width: 30%;
+/* MoreInfo */
+.MoreInfo{
+	width: 75%;
 	float: left;
 }
 
+
+/* Info-box */
+.info-box-a {
+	background-color: #fff;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
+
+.info-box-b {
+	background-color: #fff;
+	padding: 20px;
+	font-size: 13px;
+	margin: 0 0 15px 0;
+}
 
 
 /* footer */
-
-.footer{
-	bottom: 0;
-	width:100%;	
-	overflow: auto;
-	margin: 0 auto;	
-}
-
-.footer p {
-	text-align:center;
+div.footer {
+	background-color: #fff;
+	padding: 15px 0;
+	text-align: center;s
 }
 
 
