@@ -78,14 +78,14 @@ a{
 
 /* element on the left */
 .left{
-	padding: 20px;
+	padding: 50px;
 	flex-basis: 20%;
 
 }
 
 /* element on the right */
 .right{
-	padding: 20px;
+	padding: 50px;
 	flex-basis: 80%;	
 }
 
