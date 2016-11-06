@@ -14,7 +14,7 @@ a{
  	position: relative; 
 	border-style: solid;
     border-width: 5px;
-	margin: 10% 10%;
+	margin: 0 auto;
 	max-width: 600px;
 	clear: both;
 }
@@ -38,21 +38,21 @@ a{
 	font-size:2em;
 }
 
-#navbar {
+.header #navbar {
 	left:50%;
 	margin-left:-275px;
     position:relative;
     margin-bottom: 10%;
 }
 
-.nav{
+.header .nav{
 	margin: 0 auto;
 	/*text-align: center;*/
 	width:100%;	
 	
 }
 
-.nav li{
+.header .nav li{
 	
 	float: left;
 	display: inline;
@@ -70,14 +70,14 @@ a{
 }
 
 
-.nav a:hover, .nav a:active, .nav .active a:link, .nav .active a:visited{
+.header .nav a:hover,.header .nav a:active, .header .nav .active a:link, .header .nav .active a:visited{
 	color: #FFFFFF;
 	background-color:#000000;
 }
 
 /* content */
 
-.center {    
+.content {    
 	background-color:#FFFFFF;
 	width: 80%;
 	overflow: auto;
@@ -85,17 +85,17 @@ a{
 	margin-top: 5%;
 }
 
-.left{
+.content .left{
 	float:left;
 	width: 47%;
 }
 
-.left img{
+.content .left img{
 	width: 100%;
 }
 
 
-.right{
+.content .right{
 	
 	width:47%;
 	float:right;
@@ -104,11 +104,11 @@ a{
 }
 
 
-.right h3{
+.content .right h3{
 	font-size: 2em;
 	font-weight:bold;
 }
-.right p {
+.content .right p {
 	font-size: 1.5em;
 }
 

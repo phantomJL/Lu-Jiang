@@ -10,31 +10,32 @@
 	<body class = "body">
 	<!-- !PAGE CONTENT! -->
     <!-- Header -->
+    
     <header class = "header">
-    	<h1>LJ</h1>
+    	<div class = "logo">
+    	<a href = "index.html"><h1>LJ</h1></a>
+    	</div>
+    	
     	<div class = "navbar">
       		<ul class = "nav">        
         		<li ><a href = "index.html">Home</a></li>
-        		<li class = "active"><a href = "AboutMe.html">About Me</a></li>
-        		<li ><a href = "Contact.html">Contact</a></li>  
+        		<li ><a href = "AboutMe.html">About Me</a></li>
+        		<li class = "active"><a href = "Contact.html">Contact</a></li>  
       		</ul> 
       	</div>       
     </header>
     
     <!-- Home Content -->
-    <div class = "center">
+    <div class = "content">
     
-    	<div class = "left">
-      		<img src = "img/IMG_5920.JPG">
-    	</div>   
-    	 
-    	<div class = "right">
-      		<article>
-        		<h3>Introduction</h3>
-        		<p>My name is Lu Jiang I am a fourth year Informatics and Mathmatics student.</p>
-        		<p>feel free to nevigate the website to learn more about me</p>
-      		</article>
-    	</div>
+		 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+			Name:<br><input type="text" name="name"><br>
+			E-mail:<br><input type="text" name="mail"><br>
+			Comment:<br>
+			<input type="text" name="comment" size="50"><br><br>
+			<input type="submit" value="Send">
+			<input type="reset" value="Reset">
+		</form>
     	
     </div>
     
