@@ -3,9 +3,9 @@
 <html>
   <head>
  	<meta charset="UTF-8">
-    <title>Contact</title>
+    <title>About Me</title>
         
-
+	<link type = "text/css" rel = "stylesheet" href="fonts/Fonts.css"/>
     <link type = "text/css" rel = "stylesheet" href="css/stylesheet.css"/>
     <link type = "text/css" rel = "stylesheet" href = "css/responsive.css" media = "(min-width:900px)"/>
     <meta name="author" content="Lu Jiang">
@@ -19,9 +19,9 @@
     <header class = "header">
     	<div class = "navbar">
       		<ul class = "nav">        
-        		<li ><a href = "index.html">Home</a></li>
-        		<li class = "active"><a href = "AboutMe.html">About Me</a></li>
-        		<li ><a href = "Contact.html">Contact</a></li>  
+        		<li id = "title" ><a href = "index.html">Home</a></li>
+        		<li id = "title" class = "active"><a href = "AboutMe.html">About Me</a></li>
+        		<li id = "title" ><a href = "Contact.html">Contact</a></li>  
       		</ul> 
       	</div>
       	     
@@ -42,28 +42,35 @@
     		
 				<!-- My Interest -->
 				<div class="info-box-a">
-					<h1>My Interest</h1>
-					<p>I love reading, plating and plaing piano</p>
+					<h1 id = "maintitle">My Interest</h1><br><br>
+					<h3 id = "subtitle">Reading</h3><br>
+					<p id = "body">I love reading. This is not only a learning method but a process to find myself and improve my mind.</p><br>
+					<h3 id = "subtitle">Planting</h3><br>
+					<p id = "body">I love plant and I'd like to take care of them. I like watching them growing up, blooming and falling, which makes
+					feel the breath of lives.</p><br>
+					<h3 id = "subtitle">Music</h3><br>
+					<p id = "body">Music is one of the most important part of my life. Sometimes I play piano, playing the music, and sometimes I just listen
+					to them. Every pieces of music is a beautiful story.</p>
 				</div>
 
 				<!-- My Skills -->
 				<div class="info-box-b">
-					<h1>My Skills</h1>
-					<p>Java</p>
-					<p>Python</p>
-					<p>Html</p>
+					<h1 id = "maintitle">My Skills</h1><br><br>
+					<h3 id = "subtitle">Java</h3><br>
+					<h3 id = "subtitle">Python</h3><br>
+					<h3 id = "subtitle">Html</h3><br>
 				</div>
 		
 			
 				<!-- Project -->
 				<div class="info-box-b">
-					<h1>Projects</h1><br>
-					<h3>Sing Contest</h3>
-					<p>Building and maintaining website<br> 
+					<h1 id = "maintitle">Projects</h1><br><br>
+					<h3 id = "subtitle">Sing Contest</h3><br>
+					<p id = "body">Building and maintaining website<br> 
 Managing the Publicity Department<br>
 Participating in Designing and Planning IU EVO</p><br>
-					<h3>IOT Gateway</h3><br>
-					<p>Sending the sensor data through raspberry PI to database<br> 
+					<h3 id = "subtitle">IOT Gateway</h3><br>
+					<p id = "body">Sending the sensor data through raspberry PI to database<br> 
 Building up a application to monitor data flow<br> 
 Creating a website to grabbing data from database and display them in diagrams</p>
 				</div>
@@ -76,7 +83,7 @@ Creating a website to grabbing data from database and display them in diagrams</
     
      <!-- Footer -->
     <div class="footer">
-    	<p>create by Lu Jiang</p>
+    	<p id = "subtitle">create by Lu Jiang</p>
 	</div>
 	
 

@@ -2,13 +2,13 @@ h1, h2, h3 {
 	text-align:center;
 	margin: 0;
 	padding: 0;
-	font-size: 2em;
+
 }
+
 
 p {
 	text-align:center;
 	margin: 0 0 1em 0;
-	font-size: 94%;
 }
 
 img {
@@ -18,10 +18,7 @@ img {
 }
 
 body{
-	font-size: 100%;
-	font-family: Arial;
 	line-height: 1.5;
-	text-align: left;
 	background-color:#fff0f5;
 }
 
@@ -39,11 +36,15 @@ a{
 }
 
 .navbar {
+	border-style: solid;
+	border-color: #000000;
 	background-color: #000000;
     text-align: center;
+    margin: 0 auto;
 }
 
 .navbar .nav {
+	
 	display: flex;
 
 }
@@ -56,16 +57,16 @@ a{
 
  .nav a:link, .nav a:visited {
 	text-align:center;
-	margin: 0 auto;
-	padding: 10px 20px;
+	margin: 1px 1px;
+	padding: 25px 20px;
 	height: 20px;
-	color:#FFFFFF;
+	color:#fff0f5;
 }
 
 
  .nav a:hover,  .nav a:active,  .nav .active a:link, .nav .active a:visited{
-	color: #FFFFFF;
-	background-color:#000000;
+	color: #000000;
+	background-color:#fff0f5;
 }
 
 
@@ -91,16 +92,18 @@ a{
 
 /* Info-box */
 .info-box-a {
+	border-style: solid;
+	border-color: #000000;
 	background-color: #fff;
 	padding: 50px;
-	font-size: 13px;
 	margin: 0 0 15px 0;
 }
 
 .info-box-b {
+	border-style: solid;
+	border-color: #000000;
 	background-color: #fff;
 	padding: 50px;
-	font-size: 13px;
 	margin: 0 0 15px 0;
 }
 
@@ -112,7 +115,3 @@ div.footer {
 	text-align: center;
 }
 
-
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
