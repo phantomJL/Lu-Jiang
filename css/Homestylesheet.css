@@ -11,12 +11,8 @@ a{
 	text-decoration: none;}
 
 .body{
-<<<<<<< HEAD
-	position: relative;
-	margin: 10% auto;
-=======
-	margin: 20% auto;
->>>>>>> master
+/* 	position: relative; */
+	margin: 0 auto;
 	width: 80%;
 	clear: both;
 }

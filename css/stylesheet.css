@@ -25,7 +25,9 @@ a{
 	float:left;
 }
 
-.navbar{float:right;}
+.navbar{
+float:right;
+}
 
 
 .nav{
