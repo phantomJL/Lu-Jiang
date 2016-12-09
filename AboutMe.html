@@ -7,78 +7,129 @@
         
 	<link type = "text/css" rel = "stylesheet" href="fonts/Fonts.css"/>
     <link type = "text/css" rel = "stylesheet" href="css/stylesheet.css"/>
+    <link type = "text/css" rel = "stylesheet" href="css/photo.css"/>
+    <script src="js/video.js"></script> 
     <link type = "text/css" rel = "stylesheet" href = "css/responsive.css" media = "(min-width:900px)"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Lu Jiang">
   </head>
   
   
-	<body class = "body">
+	<body>
 	<!-- !PAGE CONTENT! -->
     <!-- Header -->
     
-    <header class = "header">
-    	<div class = "navbar">
-      		<ul class = "nav">        
-        		<li id = "title" ><a href = "index.html">Home</a></li>
-        		<li id = "title" class = "active"><a href = "AboutMe.html">About Me</a></li>
-        		<li id = "title" ><a href = "Contact.html">Contact</a></li>  
+    <header>
+    	<nav>
+      		<ul>        
+        		<li><a href = "index.html">Home</a></li>
+        		<li class = "active"><a href = "AboutMe.html">About Me</a></li>
+        		<li ><a href = "Experience.html">Experience</a></li>	
+        		<li><a href = "Contact.html">Contact</a></li>  
       		</ul> 
-      	</div>
+      	</nav>
       	     
     </header>
     
     <!-- Home Content -->
     <div class = "content">
-    <div class="section-inner">
     
 		<div class = "maincontent">
-    		<!-- personal -->
-			<div class = "left ">
-					<img class = "myself" src = "img/IMG_5919.JPG">
-			</div>
-			
+		<div class = "center">	
     		<!-- MoreInfo -->
-    		<div class = "right">	
-    		
 				<!-- My Interest -->
+				<h1 id = "maintitle">My Interest</h1>
+				
 				<div class="info-box-a">
-					<h1 id = "maintitle">My Interest</h1><br><br>
-					<h3 id = "subtitle">Reading</h3><br>
+					
+					<h3 id = "maintitle ">Reading</h3><br>
 					<p id = "body">I love reading. This is not only a learning method but a process to find myself and improve my mind.</p><br>
-					<h3 id = "subtitle">Planting</h3><br>
+					<h3 id = "subtitle"> Book I read recently</h3>
+					<div class="responsive">
+					  <div class="img">
+						<a target="_blank" href="https://en.wikipedia.org/wiki/S._(Dorst_novel)">
+						  <img src="img/S.jpg" alt="Ship of theseus" width="600" height="200">
+						</a>
+						<div class="desc">Ship of Theseus</div>
+					  </div>
+					</div>
+
+
+					<div class="responsive">
+					  <div class="img">
+						<a target="_top" href="https://en.wikipedia.org/wiki/The_Red_Book_(Jung)">
+						  <img src="img/Theredbook.jpg" alt="The red book" width="600" height="400">
+						</a>
+						<div class="desc">The red book</div>
+					  </div>
+					</div>
+
+					<div class="responsive">
+					  <div class="img">
+						<a target="_blank" href="https://en.wikipedia.org/wiki/Pride_and_Prejudice">
+						  <img src="img/PridePrejudice.jpg" alt="Pride and Prejudice" width="600" height="400">
+						</a>
+						<div class="desc">Pride and Prejudice </div>
+					  </div>
+					</div>
+
+					<div class="responsive">
+					  <div class="img">
+						<a target="_blank" href="https://en.wikipedia.org/wiki/Flipped">
+						  <img src="img/Flipped.jpg" alt="Flipped" width="600" height="400">
+						</a>
+						<div class="desc">Flipped</div>
+					  </div>
+					</div>
+
+					<div class="clearfix"></div>
+
+
+				</div>
+				
+				<div class="info-box-a">
+					<h3 id = "maintitle">Planting</h3><br>
 					<p id = "body">I love plant and I'd like to take care of them. I like watching them growing up, blooming and falling, which makes
 					feel the breath of lives.</p><br>
-					<h3 id = "subtitle">Music</h3><br>
+
+						  <img class = "plant" src="img/home1.jpg" width="600" height="200">
+
+
+					<div class="clearfix"></div>
+				</div>
+				
+				<div class="info-box-a">
+					<h3 id = "maintitle">Music</h3><br>
 					<p id = "body">Music is one of the most important part of my life. Sometimes I play piano, playing the music, and sometimes I just listen
 					to them. Every pieces of music is a beautiful story.</p>
-				</div>
+								<div class="yt-general">
+								  <div class="yt-miniaturas">
+								  <a href="javascript:cargarVideo('id-frame', 'DMP0tsTnFtk');"><img src="http://img.youtube.com/vi/DMP0tsTnFtk/1.jpg" />
+									<div>Marian Hill - One Time</div>
+								  </a>
+								  <a href="javascript:cargarVideo('id-frame', '3Ba_WoSZXvw');"><img src="http://img.youtube.com/vi/3Ba_WoSZXvw/1.jpg" />
+									<div>La Vie En Rose</div>
+								  </a>
+								  <a href="javascript:cargarVideo('id-frame', 'fzxag7U3Snk');"><img src="http://img.youtube.com/vi/fzxag7U3Snk/1.jpg" />
+									<div>Gnarls Barkley - Crazy (Cover) by Daniela Andrade</div>
+								  </a>
+								  <a href="javascript:cargarVideo('id-frame', 'nMqCFWgoO7g');"><img src="http://img.youtube.com/vi/nMqCFWgoO7g/1.jpg" />
+									<div>Andy Grammer - Fresh Eyes</div>
+								  </a>
 
-				<!-- My Skills -->
-				<div class="info-box-b">
-					<h1 id = "maintitle">My Skills</h1><br><br>
-					<h3 id = "subtitle">Java</h3><br>
-					<h3 id = "subtitle">Python</h3><br>
-					<h3 id = "subtitle">Html</h3><br>
-				</div>
-		
-			
-				<!-- Project -->
-				<div class="info-box-b">
-					<h1 id = "maintitle">Projects</h1><br><br>
-					<h3 id = "subtitle">Sing Contest</h3><br>
-					<p id = "body">Building and maintaining website<br> 
-Managing the Publicity Department<br>
-Participating in Designing and Planning IU EVO</p><br>
-					<h3 id = "subtitle">IOT Gateway</h3><br>
-					<p id = "body">Sending the sensor data through raspberry PI to database<br> 
-Building up a application to monitor data flow<br> 
-Creating a website to grabbing data from database and display them in diagrams</p>
-				</div>
+								</div>
+								<div class="yt-cargador">
+								  <div id="yt-video" class="yt-video">
+									<iframe id="id-frame" width="420" height="315" src="https://www.youtube.com/embed//3hFljpXz7co?rel=0" frameborder="0" allowfullscreen></iframe>
+								  </div>
+								</div>
+								</div>
 
+
+				</div>
 				
 			</div>
- 		</div>
-    </div>
+			</div>
     </div>
     
      <!-- Footer -->

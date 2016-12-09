@@ -13,18 +13,19 @@
   </head>
   
   
-	<body class = "body">
+	<body>
 	<!-- !PAGE CONTENT! -->
     <!-- Header -->
     
-    <header class = "header">
-    	<div class = "navbar">
-      		<ul class = "nav">        
-        		<li id = "title"><a href = "index.html">Home</a></li>
-        		<li id = "title"><a href = "AboutMe.html">About Me</a></li>
-        		<li id = "title" class = "active"><a href = "Contact.html">Contact</a></li>  
+    <header>
+    	<nav>
+      		<ul>        
+        		<li><a href = "index.html">Home</a></li>
+        		<li><a href = "AboutMe.html">About Me</a></li>
+        		<li ><a href = "Experience.html">Experience</a></li>	
+        		<li class = "active"><a href = "Contact.html">Contact</a></li>  
       		</ul> 
-      	</div>     
+      	</nav>     
     </header>
     
     <!-- Home Content -->
@@ -40,7 +41,6 @@
 				box.<br><br>I will email you back as soon as I get comments from you!!</p>
 		
 			</div>
-			
     		<!-- MoreInfo -->
     		<form method="post" action="" class = "right">	
     		
@@ -55,9 +55,9 @@
 				<div class="info-box-b">
 				
 					<h1 id = "subtitle">Comment: <p id = "body">"send":redirect you to send mail page<br>"reset":click to reset your information</p></h1>
-					<input type="text" id="comment" name = "Comment" style="width: 100%; height: 600px;">
-					<input type="button" value= "Send" onclick = "send()">
-					<input type="reset" value="Reset">
+					<textarea type="text" id="comment" name = "Comment" style="width: 100%; height: 600px;"></textarea>
+					<input type="button" value= "Send" onclick = "send()" style="height: 100px; width: 50%;">
+					<input type="reset" value="Reset" style="height: 100px; width: 50%; ">
 				</div>
 		
 			
