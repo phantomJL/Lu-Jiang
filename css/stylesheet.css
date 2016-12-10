@@ -53,13 +53,14 @@ ul li{
 	flx:1;
 	display: inline;
 	font-weight:bold;
+	font-size: 70%;
 }
 
 li a:link, li a:visited {
 	text-align:center;
-	margin: 1px 1px;
-	padding: 25px 20px;
+	padding: 35px 20px;
 	height: 20px;
+
 	color:#fff0f5;
 }
 
@@ -77,8 +78,9 @@ li a:hover,  li a:active,  li .active a:link, li .active a:visited{
 
 /* element on the center */
 .center{
-	padding: 50px;
-	flex-basis: 50%;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
 
 }
 
@@ -113,13 +115,6 @@ li a:hover,  li a:active,  li .active a:link, li .active a:visited{
 	height: auto;
 }
 
-.info-box-b {
-	border-style: solid;
-	border-color: #000000;
-	background-color: #fff;
-	padding: 5%;
-	margin: 0 0 5% 0;
-}
 
 
 /* video */
@@ -218,6 +213,7 @@ li a:hover,  li a:active,  li .active a:link, li .active a:visited{
   border-style: double;
   border-color: #999 transparent;
 }
+
 @keyframes spin {100% {
   transform: rotate(359deg);}
 }
@@ -225,8 +221,10 @@ li a:hover,  li a:active,  li .active a:link, li .active a:visited{
   .videominiaturas a div {display: none !important;}
 }
 
+
 /* footer */
-.footer {
+
+div.footer {
 	background-color: #fff;
 	padding: 30px 0;
 	text-align: center;
