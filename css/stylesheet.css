@@ -54,11 +54,12 @@ ul li{
 	display: inline;
 	font-weight:bold;
 	font-size: 50%;
+	margin: 1% auto 1% auto;
 }
 
 li a:link, li a:visited {
 	text-align:center;
-	padding: 35px 20px;
+	padding: 20% auto 20% auto;
 	height: 20px;
 
 	color:#fff0f5;
