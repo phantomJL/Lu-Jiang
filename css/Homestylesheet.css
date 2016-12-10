@@ -33,6 +33,52 @@ a{
 }
 
 
+
+/* Header */
+
+header {
+	max-width: 1400px;
+	
+	margin: 10px auto 10px auto;
+	
+}
+
+nav {
+	border-style: solid;
+	border-color: #000000;
+	background-color: #000000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul {
+	
+	display: flex;
+
+}
+
+ul li{
+	flx:1;
+	display: inline;
+	font-weight:bold;
+	font-size: 50%;
+	margin: 1% auto 1% auto;
+}
+
+li a:link, li a:visited {
+	text-align:center;
+	padding: 20% auto 20% auto;
+	height: 20px;
+
+	color:#fff0f5;
+}
+
+
+li a:hover,  li a:active,  li .active a:link, li .active a:visited{
+	color: #000000;
+	background-color:#fff0f5;
+}
+
 /* Header */
 
 header {
